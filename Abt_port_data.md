@@ -146,6 +146,7 @@ PIXELPORTFOLIO
 │       └── main.tsx
 │       
 ├── node_modules
+├── dist
 ├── server
 │   ├── index.ts
 │   ├── routes.ts
