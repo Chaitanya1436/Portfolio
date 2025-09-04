@@ -1,4 +1,4 @@
-/*import { defineConfig } from "vite";
+/* import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
@@ -30,31 +30,28 @@ export default defineConfig({
   },
   server: {
     fs: {
-      strict: true,
-//   deny: ["**/         //remove this two slashes but not 3rd slash             .*"],
-//  },
+      strict: true, */
+ //  deny: ["**/.*"],
+// },
 //  },
 // });
-
-
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/Portfolio/",   // 👈 IMPORTANT: Repo name goes here
+  base: "/Portfolio/", // Must match your repository name for Github Pages
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "client", "src"),
+      "@": path.resolve(__dirname, "src"),
       "@shared": path.resolve(__dirname, "shared"),
       "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
-  root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
-    emptyOutDir: true,
-  },
+    outDir: "dist",     // Output folder for the build
+    emptyOutDir: true,  // Clean build directory before build
+  }
 });
