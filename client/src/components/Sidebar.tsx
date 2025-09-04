@@ -37,7 +37,7 @@ const Sidebar = () => {
           data-testid="profile-image-container"
         >
           <img
-            src="/Portfolio/my_images/my_anime_gif.gif"
+            src={`${import.meta.env.BASE_URL}my_images/my_anime_gif.gif`}
             alt="G Chaitanya Naga Sai"
             className="w-full h-full object-cover rounded-full"
             data-testid="profile-image"
@@ -80,7 +80,7 @@ const Sidebar = () => {
       data-testid="link-linkedin"
     >
       <img
-        src="/Portfolio/my_images/linkedin_icon.png"
+        src={`${import.meta.env.BASE_URL}my_images/linkedin_icon.png`}
         alt="LeetCode"
         className="w-5 h-5"
       />
@@ -100,7 +100,7 @@ const Sidebar = () => {
       data-testid="link-github"
     >
       <img
-        src="/Portfolio/my_images/github_icon.png"
+        src={`${import.meta.env.BASE_URL}my_images/github_icon.png`}
         alt="LeetCode"
         className="w-5 h-5"
       />
@@ -121,7 +121,7 @@ const Sidebar = () => {
     >
       {/* Option 1: If you have your PNG in public/my_images/ */}
       <img
-        src="/Portfolio/my_images/leetcode_icon.png"
+        src={`${import.meta.env.BASE_URL}my_images/leetcode_icon.png`}
         alt="LeetCode"
         className="w-5 h-5"
       />
@@ -143,7 +143,7 @@ const Sidebar = () => {
       data-testid="link-email"
     >
       <img
-        src="/Portfolio/my_images/Email_icon.png"
+        src={`${import.meta.env.BASE_URL}my_images/Email_icon.png`}
         alt="LeetCode"
         className="w-5 h-5"
       />

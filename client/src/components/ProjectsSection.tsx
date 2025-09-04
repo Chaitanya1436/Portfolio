@@ -5,6 +5,8 @@ import { useEffect, useState, useRef } from "react";
 
 const ProjectsSection = () => {
   // 🔹 helper function to render skill pills
+  const basePath = import.meta.env.BASE_URL;
+
   const renderSkills = (skills: string[]) => (
     <div className="flex flex-wrap gap-2">
       {skills.map((skill, idx) => (
@@ -31,7 +33,7 @@ const ProjectsSection = () => {
       description:
         "An easy-to-use tool that creates slide outlines using AI from APIs like Google and Gemini. It adds images with AI image services and lets you edit slides through an AI assistant. You can use custom or built-in templates and export your presentation as PDF or PPTX.",
       technologies: ["DataBase", "Admin Panel", "Cart Feature", "React", "PostgreSQL"],
-      icon: "/Portfolio/my_images/coming_soon.gif",
+      icon: `${basePath}my_images/coming_soon.gif`,
       color: "from-cyan-600 to-black-800",
       textColor: "text-lime-400",
       date: "Coming Soon - 👍Final year capstone project",
@@ -44,7 +46,7 @@ const ProjectsSection = () => {
       description:
         "Built a responsive e-commerce platform with real-time cart/wishlist updates, advanced product filtering, UPI-based checkout with dynamic QR and transaction validation, and a secure admin dashboard for authentication, order tracking, payment validation, and live order management.",
       technologies: ["DataBase", "Admin Panel", "Cart Feature", "React", "PostgreSQL"],
-      icon: "/Portfolio/my_images/BoomCart_gif.gif",
+      icon: `${basePath}my_images/BoomCart_gif.gif`,
       color: "from-green-600 to-green-800",
       textColor: "text-lime-400",
       date: "2024 Dec",
@@ -57,7 +59,7 @@ const ProjectsSection = () => {
       description:
         "An AI chatbot using NLP, spaCy, Transformers to handle both closed and open domain queries by extracting answers from uploaded PDFs or retrieving relevant information from external sources when needed with enhanced intent recognition and automated report generation.",
       technologies: ["Python", "JavaScript", "spaCy", "Hugging Face", "NLP"],
-      icon: "/Portfolio/my_images/medbot_gif.gif",
+      icon: `${basePath}my_images/medbot_gif.gif`,
       color: "from-blue-600",
       textColor: "text-rose-500",
       date: "2025 Feb",
@@ -70,7 +72,7 @@ const ProjectsSection = () => {
       description:
         "Designed a user-driven banking transaction scheduler simulating concurrency and deadlock control using semaphores and the banker's algorithm with real-time process tracking, deadlock detection with root cause insights, and dynamic resource flow visualization.",
       technologies: ["Core OS Concepts", "Deadlock", "concurrency", "Semaphore", "CSS"],
-      icon: "/Portfolio/my_images/OS_Banking_Gif.gif",
+      icon: `${basePath}my_images/OS_Banking_Gif.gif`,
       color: "from-blue-600 to-blue-800",
       textColor: "text-orange-400",
       date: "2024 Aug",
@@ -87,7 +89,7 @@ const ProjectsSection = () => {
       description: "A scalable video & text chat platform with random and interest-based matchmaking.",
       year: "2023",
       technologies: ["React.js", "Node.js", "Express.js", "API"],
-      image: "/Portfolio/my_images/hug-video-call.gif",
+      image: `${basePath}my_images/hug-video-call.gif`,
       link: "https://github.com/Chaitanya1436/OnlyUs",
     },
     {
@@ -96,7 +98,7 @@ const ProjectsSection = () => {
       description: "A robot that avoids obstacles, streams video, and sends a Telegram alert when it detects fire or smoke.",
       year: "2023",
       technologies: ["IoT", "Telegram", "ESP32-CAM", "Python", "Uno"],
-      image: "/Portfolio/my_images/surv_robot.gif",
+      image: `${basePath}my_images/surv_robot.gif`,
       link: "https://github.com/Chaitanya1436/Surveillance-Robot",
     },
     {
@@ -105,7 +107,7 @@ const ProjectsSection = () => {
       description: "AI PPT generator with customizable features and an integrated ASK_PPT assistant.",
       year: "Coming Soon",
       technologies: ["API", "NextAuth", "pexels", "Gemini", "openai", "ollama", "React", "Docker"],
-      image: "/Portfolio/my_images/ppt_gene.gif",
+      image: `${basePath}my_images/ppt_gene.gif`,
       link: "https://github.com/Chaitanya1436/",
     },
     {
@@ -114,7 +116,7 @@ const ProjectsSection = () => {
       description: "Personal portfolio website showcasing projects and skills",
       year: "2025",
       technologies: ["React", "TailwindCSS", "Framer Motion"],
-      image: "/Portfolio/my_images/portfolio.gif",
+      image: `${basePath}my_images/portfolio.gif`,
       link: "https://github.com/Chaitanya1436/Portfolio",
     },
     {
@@ -123,7 +125,7 @@ const ProjectsSection = () => {
       description: "Closed Bound Intelligent conversational AI with natural language processing.",
       year: "2024",
       technologies: ["HugginFace", "StreamLit", "Groq", "BeautifulSoup"],
-      image: "/Portfolio/my_images/AI_CHAT_BOT.gif",
+      image: `${basePath}my_images/AI_CHAT_BOT.gif`,
       link: "https://github.com/Chaitanya1436/ASK-Bot",
     },
     {
@@ -132,7 +134,7 @@ const ProjectsSection = () => {
       description: "Smart robot with cry detection, diaper alerts, object tracking, and live streaming.",
       year: "2024",
       technologies: ["Sensors", "Arduino", "VideoStream", "WifiMod"],
-      image: "/Portfolio/my_images/babyrobot.jpg",
+      image: `${basePath}my_images/babyrobot.jpg`,
       link: "https://github.com/Chaitanya1436/Toddler_Monitoring_Robot",
     },
     {
@@ -141,7 +143,7 @@ const ProjectsSection = () => {
       description: "Research project applying SARSA, Q-Learning, and Deep Q-Learning for maze-solving.",
       year: "2024",
       technologies: ["Python", "Colab", "Q Learning", "RL Concepts"],
-      image: "/Portfolio/my_images/Maze_trained_gif.gif",
+      image: `${basePath}my_images/Maze_trained_gif.gif`,
       link: "https://github.com/Chaitanya1436/RL-Maze-Solver",
     },
     {
@@ -150,7 +152,7 @@ const ProjectsSection = () => {
       description: "Responsive e-commerce site with live cart/wishlist, UPI checkout, and secure admin dashboard.",
       year: "2024",
       technologies: ["HTML", "PostgreSQL", "NextAuth", "DataBase"],
-      image: "/Portfolio/my_images/BoomCart_gif.gif",
+      image: `${basePath}my_images/BoomCart_gif.gif`,
       link: "https://github.com/Chaitanya1436/BoomCart",
     },
     {
@@ -159,7 +161,7 @@ const ProjectsSection = () => {
       description: "Custom deep learning model combining two architectures for improved accuracy.",
       year: "2024",
       technologies: ["Neural Networks", "DL", "GAN", "VGG16"],
-      image: "/Portfolio/my_images/DL_Hybrid_model_gif.gif",
+      image: `${basePath}my_images/DL_Hybrid_model_gif.gif`,
       link: "https://github.com/Chaitanya1436/Deep_Learning-Customized-Models",
     },
     {
@@ -168,7 +170,7 @@ const ProjectsSection = () => {
       description: "Predicted solar energy generation using ensemble ML methods.",
       year: "2023",
       technologies: ["Python", "AdaBoost", "Random Forest"],
-      image: "/Portfolio/my_images/medical_analysis_img.jpg",
+      image: `${basePath}my_images/medical_analysis_img.jpg`,
       link: "https://github.com/Chaitanya1436/Solar_Energy_Prediction_91Accuracy",
     },
     {
@@ -177,7 +179,7 @@ const ProjectsSection = () => {
       description: "Simulated deadlock situations with user interaction",
       year: "2023",
       technologies: ["JS", "OS Concepts", "Css", "HTML"],
-      image: "/Portfolio/my_images/Deadlock.gif",
+      image: `${basePath}my_images/Deadlock.gif`,
       link: "https://github.com/Chaitanya1436/OS-Banking-Visualization",
     },
     {
@@ -186,7 +188,7 @@ const ProjectsSection = () => {
       description: "Classification-based model to forecast student outcomes.",
       year: "2024",
       technologies: ["Three.js", "WebXR", "Blender"],
-      image: "/Portfolio/my_images/student_analysis_gif.gif",
+      image: `${basePath}my_images/student_analysis_gif.gif`,
       link: "https://github.com/Chaitanya1436/Student_Performance_Analysis",
     },
   ];
