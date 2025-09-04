@@ -25,7 +25,7 @@ const CertificatesSection = () => {
       id: 3,
       title: "AWS Cloud Foundations Certified",
       description: "Certified in Azure cloud services",
-      image: "/Portfolio/my_images/AWS_Academy_Cloud_Foundations_Certificate.png",
+      image: "/Portfolio/my_images/AWS_Academy_Cloud_Certificate.png",
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
