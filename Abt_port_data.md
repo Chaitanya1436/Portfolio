@@ -1,8 +1,6 @@
-# replit.md
-
 ## Overview
 
-This is a modern full-stack portfolio website built for G Chaitanya Naga Sai, showcasing his work as a Full Stack Developer and AI/ML Engineer. The application features a dark-themed, animated portfolio with sections for personal information, projects, skills, and contact details. It's built with React on the frontend and Express.js on the backend, following modern web development practices with TypeScript throughout.
+This is a modern full-stack portfolio website built, showcasing his work as a Full Stack Developer and AI/ML Engineer. The application features a dark-themed, animated portfolio with sections for personal information, projects, skills, and contact details. It's built with React on the frontend and Express.js on the backend, following modern web development practices with TypeScript throughout.
 
 ## User Preferences
 
@@ -54,7 +52,7 @@ Preferred communication style: Simple, everyday language.
 
 ## Overview
 
-This is a modern full-stack portfolio website built for G Chaitanya Naga Sai, showcasing his work as a Full Stack Developer and AI/ML Engineer. The application features a dark-themed, animated portfolio with sections for personal information, projects, skills, and contact details. It's built with React on the frontend and Express.js on the backend, following modern web development practices with TypeScript throughout.
+This is a modern full-stack portfolio website built, showcasing his work as a Full Stack Developer and AI/ML Engineer. The application features a dark-themed, animated portfolio with sections for personal information, projects, skills, and contact details. It's built with React on the frontend and Express.js on the backend, following modern web development practices with TypeScript throughout.
 
 ## User Preferences
 
