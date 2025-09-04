@@ -43,6 +43,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
+  base: "/Portfolio/",   // 👈 IMPORTANT: Repo name goes here
   plugins: [react()],
   resolve: {
     alias: {
@@ -53,8 +54,7 @@ export default defineConfig({
   },
   root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist"), // ✅ must be "dist"
+    outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
   },
-  base: "/Portfolio/", // ✅ repo name
 });
