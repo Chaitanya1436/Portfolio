@@ -4,7 +4,8 @@ import "./index.css";
 import { Router } from "wouter";
 
 createRoot(document.getElementById("root")!).render(
-  <Router base="/Portfolio">
+  <Router base={import.meta.env.BASE_URL}>
     <App />
   </Router>
 );
+
