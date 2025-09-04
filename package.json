@@ -7,7 +7,8 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "deploy": "gh-pages -d dist/public"
+  "deploy": "gh-pages -d dist/public",
+  "predeploy": "npm run build && cp dist/public/index.html dist/public/404.html"
 },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
