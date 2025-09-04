@@ -67,7 +67,7 @@ const ContactSection = () => {
       className="w-16 h-16 flex items-center justify-center mx-auto mb-4 cursor-pointer"
     >
       <img
-        src="/my_images/maillogo.png"
+        src="/Portfolio/my_images/maillogo.png"
         alt="Email"
         className="w-16 h-16 rounded-2xl"
       />
@@ -102,7 +102,7 @@ const ContactSection = () => {
       className="w-16 h-16 flex items-center justify-center mx-auto mb-4 cursor-pointer"
     >
       <img
-        src="/my_images/whatsapplogo.png"
+        src="/Portfolio/my_images/whatsapplogo.png"
         alt="WhatsApp"
         className="w-16 h-16 rounded-2xl"
       />
