@@ -41,17 +41,18 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/Portfolio/", // Must match your repository name for Github Pages
+  base: "/Portfolio/",                // GitHub Pages repo name
+  root: path.resolve(__dirname, "client"),  // Set client as root because index.html is here
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
+      "@": path.resolve(__dirname, "client/src"),
       "@shared": path.resolve(__dirname, "shared"),
-      "@assets": path.resolve(__dirname, "attached_assets"),
+      "@assets": path.resolve(__dirname, "client/public"),
     },
   },
   build: {
-    outDir: "dist",     // Output folder for the build
-    emptyOutDir: true,  // Clean build directory before build
-  }
+    outDir: path.resolve(__dirname, "dist"), // Output folder for build
+    emptyOutDir: true,
+  },
 });
