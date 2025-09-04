@@ -1,4 +1,4 @@
-/*import { defineConfig } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
@@ -31,22 +31,8 @@ export default defineConfig({
   server: {
     fs: {
       strict: true,
-//   deny: ["**/      //             .*"],
-// },
-//  },
-// });
-
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
-
-// https://vitejs.dev/config/
-export default defineConfig({
-  base: "/Portfolio/",  // 👈 IMPORTANT: must match your GitHub repo name exactly
-  root: path.resolve(__dirname, "client"),
-  build: {
-    outDir: path.resolve(__dirname, "dist/public"),
-    emptyOutDir: true,
+   deny: ["**/.*"],
+ },
   },
-  plugins: [react()],
-})
+ });
+
