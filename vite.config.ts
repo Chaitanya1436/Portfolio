@@ -16,7 +16,8 @@ export default defineConfig({
         ]
       : []),
   ],
-  base: '/Portfolio/',
+  // base: '/Portfolio/', //use this for only github hosting
+  base: process.env.NODE_ENV === "production" ? "/Portfolio/" : "/", //use this for both local hosting when "npm run dev" and also "npm run deploy"
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

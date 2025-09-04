@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 const CertificatesSection = () => {
+  const basePath = import.meta.env.BASE_URL;
+
   const [visibleCertificates, setVisibleCertificates] = useState(4);
 
   const certificates = [
@@ -11,56 +13,56 @@ const CertificatesSection = () => {
       id: 1,
       title: "AWS Cloud Architecting Certified",
       description: "Got certified in AWS cloud architecting",
-      image: "/Portfolio/my_images/AWS_Academy_Cloud_Architecting_certificate.png",
+      image: `${basePath}my_images/AWS_Academy_Cloud_Architecting_certificate.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 2,
       title: "Microsoft Azure Fundamentals Certified",
       description: "Achieved Google Cloud certification",
-      image: "/Portfolio/my_images/Microsoft_Azure_AI_Fundamentals_Certificate.png",
+      image: `${basePath}my_images/Microsoft_Azure_AI_Fundamentals_Certificate.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 3,
       title: "AWS Cloud Foundations Certified",
       description: "Certified in Azure cloud services",
-      image: "/Portfolio/my_images/AWS_Academy_Cloud_Certificate.png",
+      image: `${basePath}my_images/AWS_Academy_Cloud_Certificate.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 4,
       title: "LeetCode 100Days Streak Badge",
       description: "",
-      image: "/Portfolio/my_images/Leetcode_100days_badge_noram.png",
+      image: `${basePath}my_images/Leetcode_100days_badge_noram.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 5,
       title: "GFG 28th Rank in college",
       description: "",
-      image: "/Portfolio/my_images/GFG 28th rank in VIT.png",
+      image: `${basePath}my_images/GFG 28th rank in VIT.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 6,
       title: "LeetCode never bored once..",
       description: "",
-      image: "/Portfolio/my_images/Leetcode_50days_badge_ss.png",
+      image: `${basePath}my_images/Leetcode_50days_badge_ss.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 7,
       title: "Got 87% in MicroSoft Azure Test",
       description: "",
-      image: "/Portfolio/my_images/Microsoft_Azure_Marks.png",
+      image: `${basePath}my_images/Microsoft_Azure_Marks.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
       id: 8,
       title: "I'm a University Volleyball player",
       description: "",
-      image: "/Portfolio/my_images/Tropy_from_Gitam.jpeg",
+      image: `${basePath}my_images/Tropy_from_Gitam.jpeg`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
   ];
