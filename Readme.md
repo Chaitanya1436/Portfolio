@@ -8,7 +8,8 @@ Deployed on <b>GitHub Pages</b>: <a href="https://chaitanya1436.github.io/Portfo
 
 ## 🎥 Demo
 
-![Portfolio GIF](Portfolio_home_pageGIF.gif)
+<img src="Portfolio_home_pageGIF.gif" alt="GIF" width="100%" height="auto">
+
 
 ---
 
@@ -64,69 +65,69 @@ The application follows **best practices** with React, Express, TypeScript, and 
 
 PORTFOLIO
 │
-├── 📁 client
-│   ├── 📄 index.html 
-│   ├── 📁 public
-│   │   └── 📁 my_images
-│   └── 📁 src
-│       ├── 📁 components
-│       │   ├── 🎨 AnimatedBackground.tsx
-│       │   ├── 📜 CertificatesSection.tsx
-│       │   ├── ✉️ ContactSection.tsx
-│       │   ├── 🖱️ CustomCursor.tsx
-│       │   ├── 🧭 Header.tsx
-│       │   ├── 👋 HeroSection.tsx
-│       │   ├── ⏳ LoadingScreen.tsx
-│       │   ├── 💼 ProjectsSection.tsx
-│       │   ├── 📈 ScrollProgress.tsx
-│       │   ├── 📑 Sidebar.tsx
-│       │   ├── 🛠️ SkillsSection.tsx
-│       │   └── 📁 ui
-│       │       ├── accordion.tsx
-│       │       ├── alert-dialog.tsx
-│       │       ├── alert.tsx
-│       │       ├── aspect-ratio.tsx
-│       │       ├── avatar.tsx
-│       │       ├── badge.tsx
-│       │       ├── breadcrumb.tsx
-│       │       ├── button.tsx
-│       │       └── ... (other UI components)
-│       ├── 📁 hooks
-│       │   ├── use-mobile.tsx
-│       │   ├── use-toast.ts
-│       │   ├── useCountUp.tsx
-│       │   └── useScrollAnimations.tsx
-│       ├── 📁 lib
-│       │   ├── queryClient.ts
-│       │   └── utils.ts
-│       ├── 📁 pages
-│       │   ├── not-found.tsx
-│       │   └── portfolio.tsx
-│       ├── ⚛️ App.tsx
-│       ├── 🎨 index.css
-│       └── ⚡ main.tsx
+├── client
+│ ├── index.html
+│ ├── public
+│ │ └── my_images
+│ └── src
+│ ├── components
+│ │ ├── AnimatedBackground.tsx
+│ │ ├── CertificatesSection.tsx
+│ │ ├── ContactSection.tsx
+│ │ ├── CustomCursor.tsx
+│ │ ├── Header.tsx
+│ │ ├── HeroSection.tsx
+│ │ ├── LoadingScreen.tsx
+│ │ ├── ProjectsSection.tsx
+│ │ ├── ScrollProgress.tsx
+│ │ ├── Sidebar.tsx
+│ │ ├── SkillsSection.tsx
+│ │ └── ui
+│ │ ├── accordion.tsx
+│ │ ├── alert-dialog.tsx
+│ │ ├── alert.tsx
+│ │ ├── aspect-ratio.tsx
+│ │ ├── avatar.tsx
+│ │ ├── badge.tsx
+│ │ ├── breadcrumb.tsx
+│ │ ├── button.tsx
+│ │ └── ... (other UI components)
+│ ├── hooks
+│ │ ├── use-mobile.tsx
+│ │ ├── use-toast.ts
+│ │ ├── useCountUp.tsx
+│ │ └── useScrollAnimations.tsx
+│ ├── lib
+│ │ ├── queryClient.ts
+│ │ └── utils.ts
+│ ├── pages
+│ │ ├── not-found.tsx
+│ │ └── portfolio.tsx
+│ ├── App.tsx
+│ ├── index.css
+│ └── main.tsx
 │
-├── 📁 node_modules
-├── 📁 dist
+├── node_modules
+├── dist
 │
-├── 📁 server
-│   ├── index.ts
-│   ├── routes.ts
-│   ├── storage.ts
-│   └── vite.ts
+├── server
+│ ├── index.ts
+│ ├── routes.ts
+│ ├── storage.ts
+│ └── vite.ts
 │
-├── 📁 shared
-│   └── schema.ts
+├── shared
+│ └── schema.ts
 │
-├── ⚙️ .gitignore
-├── ⚙️ components.json
-├── ⚙️ drizzle.config.ts
-├── 📄 package-lock.json
-├── 📦 package.json
-├── 📝 abt_portfolio.md
-├── 🎨 tailwind.config.ts
-├── ⚙️ tsconfig.json
-└── ⚡ vite.config.ts
+├── .gitignore
+├── components.json
+├── drizzle.config.ts
+├── package-lock.json
+├── package.json
+├── abt_portfolio.md
+├── tailwind.config.ts
+├── tsconfig.json
+└── vite.config.ts
 
 ---
 
