@@ -1,14 +1,14 @@
 # 🌐 Portfolio
 
 A modern **Full-Stack Portfolio Website** showcasing work as a **Full Stack Developer** and **AI/ML Engineer**.  
-Deployed on <b>GitHub Pages</b>: <a href="https://chaitanya1436.github.io/Portfolio/" target="_blank">👉 Live Demo</a>
+Deployed on <b>GitHub Pages</b>: <a href="https://chaitanya1436.github.io/Portfolio/" target="_blank">👉 Wanna See Live Demo? Click here✔️</a>
 
 
 ---
 
 ## 🎥 Demo
 
-<img src="Portfolio_home_pageGIF.gif" alt="GIF" width="100%" height="auto">
+<img src="Portfolio_homeGIF.gif" alt="GIF" width="100%" height="auto">
 
 
 ---
@@ -63,61 +63,64 @@ The application follows **best practices** with React, Express, TypeScript, and 
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```bash
 PORTFOLIO
 │
 ├── client
-│ ├── index.html
-│ ├── public
-│ │ └── my_images
-│ └── src
-│ ├── components
-│ │ ├── AnimatedBackground.tsx
-│ │ ├── CertificatesSection.tsx
-│ │ ├── ContactSection.tsx
-│ │ ├── CustomCursor.tsx
-│ │ ├── Header.tsx
-│ │ ├── HeroSection.tsx
-│ │ ├── LoadingScreen.tsx
-│ │ ├── ProjectsSection.tsx
-│ │ ├── ScrollProgress.tsx
-│ │ ├── Sidebar.tsx
-│ │ ├── SkillsSection.tsx
-│ │ └── ui
-│ │ ├── accordion.tsx
-│ │ ├── alert-dialog.tsx
-│ │ ├── alert.tsx
-│ │ ├── aspect-ratio.tsx
-│ │ ├── avatar.tsx
-│ │ ├── badge.tsx
-│ │ ├── breadcrumb.tsx
-│ │ ├── button.tsx
-│ │ └── ... (other UI components)
-│ ├── hooks
-│ │ ├── use-mobile.tsx
-│ │ ├── use-toast.ts
-│ │ ├── useCountUp.tsx
-│ │ └── useScrollAnimations.tsx
-│ ├── lib
-│ │ ├── queryClient.ts
-│ │ └── utils.ts
-│ ├── pages
-│ │ ├── not-found.tsx
-│ │ └── portfolio.tsx
-│ ├── App.tsx
-│ ├── index.css
-│ └── main.tsx
+│   ├── index.html 
+│   ├── public
+│   │   └── my_images
+│   └── src
+│       ├── components
+│       │   ├── AnimatedBackground.tsx
+│       │   ├── CertificatesSection.tsx
+│       │   ├── ContactSection.tsx
+│       │   ├── CustomCursor.tsx
+│       │   ├── Header.tsx
+│       │   ├── HeroSection.tsx
+│       │   ├── LoadingScreen.tsx
+│       │   ├── ProjectsSection.tsx
+│       │   ├── ScrollProgress.tsx
+│       │   ├── Sidebar.tsx
+│       │   ├── SkillsSection.tsx
+│       │   └── ui
+│       │       ├── accordion.tsx
+│       │       ├── alert-dialog.tsx
+│       │       ├── alert.tsx
+│       │       ├── aspect-ratio.tsx
+│       │       ├── avatar.tsx
+│       │       ├── badge.tsx
+│       │       ├── breadcrumb.tsx
+│       │       ├── button.tsx
+│       │       └── ... (other UI components)
+│       ├── hooks
+│       │   ├── use-mobile.tsx
+│       │   ├── use-toast.ts
+│       │   ├── useCountUp.tsx
+│       │   └── useScrollAnimations.tsx
+│       ├── lib
+│       │   ├── queryClient.ts
+│       │   └── utils.ts
+│       ├── pages
+│       │   ├── not-found.tsx
+│       │   └── portfolio.tsx
+│       ├── App.tsx
+│       ├── index.css
+│       └── main.tsx
 │
 ├── node_modules
 ├── dist
 │
 ├── server
-│ ├── index.ts
-│ ├── routes.ts
-│ ├── storage.ts
-│ └── vite.ts
+│   ├── index.ts
+│   ├── routes.ts
+│   ├── storage.ts
+│   └── vite.ts
 │
 ├── shared
-│ └── schema.ts
+│   └── schema.ts
 │
 ├── .gitignore
 ├── components.json
@@ -128,6 +131,8 @@ PORTFOLIO
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── vite.config.ts
+
+```
 
 ---
 
