@@ -8,7 +8,7 @@ Deployed on <b>GitHub Pages</b>: <a href="https://chaitanya1436.github.io/Portfo
 
 ## 🎥 Demo
 
-https://github.com/chaitanya1436/Portfolio/blob/main/portfolio_home_page.mov
+https://github.com/chaitanya1436/Portfolio/blob/main/portfolio_home_pageGIF.gif
 
 ---
 
