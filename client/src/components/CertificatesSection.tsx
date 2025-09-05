@@ -41,7 +41,7 @@ const CertificatesSection = () => {
       id: 5,
       title: "GFG 28th Rank in college",
       description: "",
-      image: `${basePath}my_images/GFG 28th rank in VIT.png`,
+      image: `${basePath}my_images/GFG_28th_rank_in_VIT.png`,
       link: "https://www.linkedin.com/in/chaitanya-gangupalli",
     },
     {
