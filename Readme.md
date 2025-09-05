@@ -1,7 +1,8 @@
 # 🌐 Portfolio
 
 A modern **Full-Stack Portfolio Website** showcasing work as a **Full Stack Developer** and **AI/ML Engineer**.  
-Deployed on **GitHub Pages**: [👉 Live Demo](https://chaitanya1436.github.io/Portfolio/)
+Deployed on <b>GitHub Pages</b>: <a href="https://chaitanya1436.github.io/Portfolio/" target="_blank">👉 Live Demo</a>
+
 
 ---
 
