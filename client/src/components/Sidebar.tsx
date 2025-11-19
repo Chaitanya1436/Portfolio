@@ -38,7 +38,7 @@ const Sidebar = () => {
         >
           <img
             src={`${import.meta.env.BASE_URL}my_images/chaipic.jpg`}
-            alt="G Chaitanya Naga Sai"
+            alt="G Chaitanya"
             className="w-full h-full object-cover rounded-full"
             data-testid="profile-image"
           />
@@ -49,7 +49,7 @@ const Sidebar = () => {
           <motion.div variants={itemVariants} className="text-reveal">
             <div className="text-reveal-inner">
               <h1 className="text-2xl lg:text-3xl font-bold mb-4 typewriter" data-testid="profile-name">
-              G Chaitanya Naga Sai
+              G Chaitanya
               </h1>
             </div>
           </motion.div>
