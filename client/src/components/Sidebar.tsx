@@ -37,7 +37,7 @@ const Sidebar = () => {
           data-testid="profile-image-container"
         >
           <img
-            src={`${import.meta.env.BASE_URL}my_images/my_anime_gif.gif`}
+            src={`${import.meta.env.BASE_URL}my_images/chaipic.jpg`}
             alt="G Chaitanya Naga Sai"
             className="w-full h-full object-cover rounded-full"
             data-testid="profile-image"
