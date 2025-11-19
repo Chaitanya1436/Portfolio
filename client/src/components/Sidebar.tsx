@@ -172,7 +172,7 @@ const Sidebar = () => {
   </a>
 
   <a
-    href="https://drive.google.com/file/d/1L0HyQcBQVFfeta_Z28H30kQ4hsEVR11s/view?usp=drivesdk"
+    href="https://drive.google.com/file/d/1sUkvy6BhrDRgcVL1eq8BsoNSGYxJo5BZ/view?usp=drivesdk"
     target="_blank"
     rel="noopener noreferrer"
     className="flex-1"
