@@ -37,8 +37,8 @@ const ProjectsSection = () => {
       color: "from-cyan-600 to-black-800",
       textColor: "text-lime-400",
       date: "Coming Soon - 👍Final year capstone project",
-      codeLink: "https://github.com/Chaitanya1436/Slide-Genie",
-      demoLink: "https://github.com/Chaitanya1436/Slide-Genie",
+      codeLink: "https://github.com/Chaitanya1436/",
+      demoLink: "https://github.com/Chaitanya1436/",
     },
     {
       id: 2,
