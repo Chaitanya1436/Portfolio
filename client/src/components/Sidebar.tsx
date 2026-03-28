@@ -69,7 +69,7 @@ const Sidebar = () => {
 >
   {/* LinkedIn */}
   <a
-    href="https://www.linkedin.com/in/chaitanya-gangupalli/"
+    href="https://www.linkedin.com/in/chaitanya-g-24085-/"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -172,7 +172,7 @@ const Sidebar = () => {
   </a>
 
   <a
-    href="https://drive.google.com/file/d/1sUkvy6BhrDRgcVL1eq8BsoNSGYxJo5BZ/view?usp=drivesdk"
+    href="https://drive.google.com/file/d/1tYstSKY3gvA2kaFJqkbNOG20jcv0klTu/view?usp=drivesdk"
     target="_blank"
     rel="noopener noreferrer"
     className="flex-1"
