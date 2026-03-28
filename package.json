@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-"scripts": {
-  "dev:backend": "cross-env NODE_ENV=development tsx server/index.ts",
-  "dev:frontend": "vite --config client/vite.config.ts",
-  "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-  "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-  "start": "cross-env NODE_ENV=production node dist/index.js",
-  "predeploy": "npm run build",
-  "postdeploy": "powershell -Command \"Copy-Item -Path dist/public/index.html -Destination dist/public/404.html -Force\"",
-  "deploy": "gh-pages -d dist/public"
-},
+  "scripts": {
+    "dev:backend": "cross-env NODE_ENV=development tsx server/index.ts",
+    "dev:frontend": "vite --config client/vite.config.ts",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "predeploy": "npm run build",
+    "postdeploy": "powershell -Command \"Copy-Item -Path dist/public/index.html -Destination dist/public/404.html -Force\"",
+    "deploy": "gh-pages -d dist/public"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
