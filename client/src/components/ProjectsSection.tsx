@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       description:
         "An easy-to-use tool that creates slide outlines using AI from APIs like Google and Gemini. It adds images with AI image services and lets you edit slides through an AI assistant. You can use custom or built-in templates and export your presentation as PDF or PPTX.",
       technologies: ["DataBase", "Admin Panel", "Cart Feature", "React", "PostgreSQL"],
-      icon: `${basePath}my_images/coming_soon.gif`,
+      icon: `${basePath}my_images/hug-video-call.gif`,
       color: "from-cyan-600 to-black-800",
       textColor: "text-lime-400",
       date: "Coming Soon - 👍Final year capstone project",
