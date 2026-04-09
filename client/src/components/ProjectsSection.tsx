@@ -29,7 +29,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Slide Genie - AI PPT generator",
+      title: "Only-us Video Chat Platform",
       description:
         "An easy-to-use tool that creates slide outlines using AI from APIs like Google and Gemini. It adds images with AI image services and lets you edit slides through an AI assistant. You can use custom or built-in templates and export your presentation as PDF or PPTX.",
       technologies: ["DataBase", "Admin Panel", "Cart Feature", "React", "PostgreSQL"],
@@ -37,8 +37,8 @@ const ProjectsSection = () => {
       color: "from-cyan-600 to-black-800",
       textColor: "text-lime-400",
       date: "Coming Soon - 👍Final year capstone project",
-      codeLink: "https://github.com/Chaitanya1436/",
-      demoLink: "https://github.com/Chaitanya1436/",
+      codeLink: "https://github.com/Chaitanya1436/OnlyUs",
+      demoLink: "https://only-us-seven.vercel.app/",
     },
     {
       id: 2,
@@ -63,8 +63,8 @@ const ProjectsSection = () => {
       color: "from-blue-600",
       textColor: "text-rose-500",
       date: "2025 Feb",
-      codeLink: "https://github.com/Chaitanya1436/ASK-Bot",
-      demoLink: "https://github.com/Chaitanya1436/ASK-Bot",
+      codeLink: "https://github.com/Chaitanya1436/Medical_ChatBot2.0",
+      demoLink: "https://medical-chatbot2-0.onrender.com/",
     },
     {
       id: 4,
@@ -85,12 +85,12 @@ const ProjectsSection = () => {
   const otherProjects = [
     {
       id: 1,
-      title: "OnlyUs- Global Video Chat",
-      description: "A scalable video & text chat platform with random and interest-based matchmaking.",
-      year: "2023",
-      technologies: ["React.js", "Node.js", "Express.js", "API"],
-      image: `${basePath}my_images/hug-video-call.gif`,
-      link: "https://github.com/Chaitanya1436/OnlyUs",
+      title: "Slide Genie (CAPSTONE PROJECT)",
+      description: "AI PPT generator with customizable features and an integrated ASK_PPT assistant.",
+      year: "Coming Soon",
+      technologies: ["API", "NextAuth", "pexels", "Gemini", "openai", "ollama", "React", "Docker"],
+      image: `${basePath}my_images/ppt_gene.gif`,
+      link: "https://github.com/Chaitanya1436/",
     },
     {
       id: 2,
@@ -103,12 +103,12 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "Slide Genie (CAPSTONE PROJECT)",
-      description: "AI PPT generator with customizable features and an integrated ASK_PPT assistant.",
-      year: "Coming Soon",
-      technologies: ["API", "NextAuth", "pexels", "Gemini", "openai", "ollama", "React", "Docker"],
-      image: `${basePath}my_images/ppt_gene.gif`,
-      link: "https://github.com/Chaitanya1436/",
+      title: "OnlyUs- Global Video Chat",
+      description: "A scalable video & text chat platform with random and interest-based matchmaking.",
+      year: "2023",
+      technologies: ["React.js", "Node.js", "Express.js", "API"],
+      image: `${basePath}my_images/hug-video-call.gif`,
+      link: "https://only-us-seven.vercel.app/",
     },
     {
       id: 4,
@@ -126,7 +126,7 @@ const ProjectsSection = () => {
       year: "2024",
       technologies: ["HugginFace", "StreamLit", "Groq", "BeautifulSoup"],
       image: `${basePath}my_images/AI_CHAT_BOT.gif`,
-      link: "https://github.com/Chaitanya1436/ASK-Bot",
+      link: "https://medical-chatbot2-0.onrender.com/",
     },
     {
       id: 6,
